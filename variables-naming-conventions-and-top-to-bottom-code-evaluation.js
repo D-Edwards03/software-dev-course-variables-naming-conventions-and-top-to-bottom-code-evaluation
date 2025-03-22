@@ -24,9 +24,14 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let _name = "Alice"; //changed variable from a to _name
+let numOfItems = 5; //changed variable from b to numOfItems
+let total = 20; //changed variable from c to total
+let statement = _name + " bought " + numOfItems + " items for $" + total + "."; //changed d to statement and updated variables
 
-console.log(d);
+console.log(statement);
+
+let avgCost = total / numOfItems;
+let statement2 = _name + " spent $" + avgCost + " per item.";
+
+console.log(statement2);
